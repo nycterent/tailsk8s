@@ -30,11 +30,11 @@ fi
 
 ## Input Variables
 
-ARCH=amd64
-CNI_VERSION=v0.8.2
-CRICTL_VERSION=v1.22.0
-K8S_VERSION=v1.22.4
-K8S_RELEASE_VERSION=v0.4.0  # NOTE: This is the version of the `kubernetes/release` project
+ARCH=arm64
+CNI_VERSION=v1.1.0
+CRICTL_VERSION=v1.24.1
+K8S_VERSION=v1.24.0
+K8S_RELEASE_VERSION=v0.13.0  # NOTE: This is the version of the `kubernetes/release` project
 K8S_BIN_DIR=/usr/local/bin
 
 ## Use `systemd` as cgroup driver for Docker
